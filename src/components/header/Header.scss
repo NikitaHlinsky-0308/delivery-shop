@@ -1,0 +1,59 @@
+$yellow: #F3D924;
+$gray: #282B2E;
+$white: #fff;
+
+* {padding: 0; margin: 0;}
+
+.header {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background: $gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 0 0 .45em;
+}
+
+    .logo a {
+        color: $yellow;
+    }
+
+    .logo, .navigation {
+        list-style: none;
+        text-transform: uppercase;
+    }
+
+    .logo a, .navigation a {
+        text-decoration: none;
+        letter-spacing: .45rem;
+    }
+
+.navigation  {
+    display: flex;
+}
+
+.navigation a {
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.navigation a:hover {
+    background: $yellow;
+    color: $gray;
+}
+
+.cart {
+    background: $yellow;
+    padding: 1em;
+}
+
+.cart a {
+    text-decoration: none;
+    
+}
+
